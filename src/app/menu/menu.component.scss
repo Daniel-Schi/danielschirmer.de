@@ -1,8 +1,9 @@
 header {
     position: absolute;
-    top: 50px;
+    height: 80px;
     left: 0;
     right: 0;
+    top: 0;
     z-index: 1;
     padding-left: 120px;
     padding-right: 120px;
@@ -24,5 +25,21 @@ header {
 
     img {
         height: 50px;
+        cursor: pointer;
     }
+}
+
+.darkLinks {
+    a {
+        color: black;
+
+        &:hover {
+            color: rgba(0, 0, 0, 0.7);
+        }
+    }
+}
+
+.headerDark {
+    background-color: white;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
 }
